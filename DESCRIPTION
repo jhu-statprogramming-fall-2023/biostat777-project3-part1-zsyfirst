@@ -17,4 +17,4 @@ Suggests:
     knitr,
     rmarkdown
 VignetteBuilder: knitr
-URL: https://zsyfirst.github.io/project3-pkgdown-Siyu/, https://zsyfirst.github.io/Project3_pkgdown_SiyuZou/
+URL: https://zsyfirst.github.io/project3-pkgdown-Siyu/, https://zsyfirst.github.io/Project3_pkgdown_SiyuZou/, https://zsyfirst.github.io/Project3_SiyuZou/
