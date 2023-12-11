@@ -166,10 +166,6 @@ load the data.</p>
 <div class="section level4">
 <h4 id="data-wrangling">data wrangling<a class="anchor" aria-label="anchor" href="#data-wrangling"></a>
 </h4>
-<div class="section level5">
-<h5 id="purr">purr<a class="anchor" aria-label="anchor" href="#purr"></a>
-</h5>
-<p><a href="https://gradientdescending.com/alone-r-package-datasets-from-the-survival-tv-series/" class="external-link uri">https://gradientdescending.com/alone-r-package-datasets-from-the-survival-tv-series/</a></p>
 <div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://tidyverse.tidyverse.org" class="external-link">tidyverse</a></span><span class="op">)</span></span>
 <span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="http://purrr.tidyverse.org" class="external-link">purrr</a></span><span class="op">)</span></span>
@@ -198,9 +194,8 @@ load the data.</p>
 <span>    n_lasted <span class="op">=</span> <span class="va">N</span><span class="op">-</span><span class="fu"><a href="https://rdrr.io/r/base/cumsum.html" class="external-link">cumsum</a></span><span class="op">(</span><span class="va">n</span><span class="op">)</span>,</span>
 <span>    p <span class="op">=</span> <span class="va">n_lasted</span><span class="op">/</span><span class="va">N</span></span>
 <span>  <span class="op">)</span> </span></code></pre></div>
-</div>
 <div class="section level5">
-<h5 id="purr-1">purr<a class="anchor" aria-label="anchor" href="#purr-1"></a>
+<h5 id="purr">purr<a class="anchor" aria-label="anchor" href="#purr"></a>
 </h5>
 <div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">clean_load2</span> <span class="op">&lt;-</span> <span class="va">loadouts</span> <span class="op">|&gt;</span></span>
