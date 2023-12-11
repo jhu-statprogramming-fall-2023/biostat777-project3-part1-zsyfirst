@@ -89,8 +89,6 @@ loadouts <- read.csv(here("data", "tuesdata_loadouts.csv"))
 ## 3. data wrangling and data visualization
 
 ### data wrangling
-#### purr
-https://gradientdescending.com/alone-r-package-datasets-from-the-survival-tv-series/
 ```{r}
 library(tidyverse)
 library(purrr)
